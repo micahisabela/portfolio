@@ -1,5 +1,6 @@
 body {
   font-family: "Courier Prime", monospace;
+  background-color: rgb(180, 179, 179);
 }
 
 header {
@@ -8,7 +9,7 @@ header {
   background-size: cover;
   background-position: center;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
 }
 
 header img {
@@ -17,10 +18,52 @@ header img {
   border-radius: 50%;
   display: block;
   margin: 0 auto;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+h1 {
+  font-size: 40px;
+  color: #4a5347;
+}
+
+h2 {
+  font-size: 30px;
+  color: #3e463b;
 }
 
 menu {
   text-align: center;
+  background-color: rgb(191, 211, 159);
+  padding: 15px;
+  margin-top: 0px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.23);
+}
+
+h3 {
+  display: inline;
+  padding: 30px;
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: #4a5347;
+  transition: all ease-in-out 80ms;
+}
+
+a:hover {
+  cursor: pointer;
+  color: darkgray;
+  font-size: 26px;
+}
+
+.backgroundColor {
+  background-color: #cbbcb1;
+  padding: 10px;
+}
+
+.topics {
+  height: 300px;
 }
 
 .techStack {
@@ -52,21 +95,11 @@ menu {
   width: 128px;
 }
 
-h3 {
-  display: inline;
-  padding: 30px;
+h4 {
+  font-size: 25px;
+  text-align: center;
 }
 
-a {
-  text-decoration: none;
-  color: black;
-}
-
-a:hover {
-  cursor: pointer;
-  color: darkgray;
-}
-
-p .codeCredit {
-  text-align: right;
+p {
+  text-align: center;
 }
