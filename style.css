@@ -1,0 +1,72 @@
+body {
+  font-family: "Courier Prime", monospace;
+}
+
+header {
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 20px;
+}
+
+header img {
+  max-width: 100%;
+  width: 300px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+menu {
+  text-align: center;
+}
+
+.techStack {
+  text-align: center;
+}
+
+.techStack img {
+  padding: 20px;
+  padding-top: 0px;
+}
+
+#es6 {
+  width: 125px;
+}
+
+#react {
+  width: 110px;
+}
+
+#bootstrap {
+  width: 150px;
+}
+
+#css {
+  width: 90px;
+}
+
+#html {
+  width: 128px;
+}
+
+h3 {
+  display: inline;
+  padding: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  cursor: pointer;
+  color: darkgray;
+}
+
+p .codeCredit {
+  text-align: right;
+}
