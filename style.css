@@ -1,6 +1,6 @@
 body {
   font-family: "Courier Prime", monospace;
-  background-color: rgb(180, 179, 179);
+  background-color: #fff5ea;
 }
 
 header {
@@ -31,9 +31,19 @@ h2 {
   color: black;
 }
 
+.summary {
+  background-color: #f7dad9;
+  border-radius: 10px;
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 18px;
+  font-style: italic;
+}
+
 menu {
   text-align: center;
-  background-color: rgb(191, 211, 159);
+  background-color: #d6d2c4;
   padding: 15px;
   margin-top: 0px;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.23);
@@ -45,21 +55,22 @@ h3 {
   font-size: 25px;
 }
 
-a {
+.menuLinks {
   text-decoration: none;
   color: #4a5347;
   transition: all ease-in-out 80ms;
 }
 
-a:hover {
+.menuLinks:hover {
   cursor: pointer;
   color: darkgray;
   font-size: 26px;
 }
 
 .backgroundColor {
-  background-color: #cbbcb1;
+  background-color: #f7dad9;
   padding: 10px;
+  box-shadow: 3px 0px 3px rgba(0, 0, 0, 0.3);
 }
 
 .topics {
@@ -98,8 +109,40 @@ a:hover {
 h4 {
   font-size: 25px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 p {
   text-align: center;
+  font-size: 18px;
+}
+
+.contactInfo {
+  background: #968c83;
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.contactInfo ul {
+  text-align: center;
+  list-style: none;
+  color: #fff5ea;
+  line-height: 30px;
+}
+
+.contactLinks {
+  text-decoration: none;
+  color: #f7dad9;
+}
+
+.contactLinks:hover {
+  cursor: pointer;
+  color: #d6d2c4;
+}
+
+footer {
+  background-color: #d6d2c4;
+  margin-bottom: 0px;
 }
