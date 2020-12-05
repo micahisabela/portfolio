@@ -127,10 +127,15 @@ p {
   margin: 0 auto;
 }
 
+.resumeLink {
+  text-decoration: none;
+}
+
 .contactInfo {
   background: #968c83;
   width: 30%;
   margin: 0 auto;
+  margin-bottom: 70px;
   padding: 5px;
   border-radius: 10px;
   font-size: 18px;
@@ -139,7 +144,7 @@ p {
 .contactInfo ul {
   text-align: center;
   list-style: none;
-  color: #fff5ea;
+  color: #fcf8f5;
   line-height: 30px;
 }
 
@@ -156,4 +161,5 @@ p {
 footer {
   background-color: #d6d2c4;
   padding: 7px;
+  color: #4a5347;
 }
