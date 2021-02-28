@@ -5,6 +5,7 @@ export default function Skills() {
     return (
         <div className="Skills">
             <h1>Skills</h1>
+            <i className="fab fa-react"></i>
             <ul>
                 <li>React</li>
                 <li>AJAX API</li>
